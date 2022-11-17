@@ -24,7 +24,11 @@
                 <!-- They come in from 'starter-otel' -->
                 <exclusion>
                     <groupId>io.opentelemetry</groupId>
-                    <artifactId>*</artifactId>
+                    <artifactId>opentelemetry-semconv</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>io.opentelemetry</groupId>
+                    <artifactId>opentelemetry-sdk</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
