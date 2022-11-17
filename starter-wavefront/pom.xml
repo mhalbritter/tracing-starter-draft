@@ -1,0 +1,13 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>starter.draft</groupId>
+        <artifactId>starter-draft</artifactId>
+        <version>1</version>
+    </parent>
+
+    <artifactId>starter-wavefront</artifactId>
+
+    <packaging>pom</packaging>
+</project>
