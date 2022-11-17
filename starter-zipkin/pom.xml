@@ -21,17 +21,10 @@
             <artifactId>opentelemetry-exporter-zipkin</artifactId>
             <version>1.20.1</version>
             <exclusions>
+                <!-- They come in from 'starter-otel' -->
                 <exclusion>
                     <groupId>io.opentelemetry</groupId>
-                    <artifactId>opentelemetry-sdk</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>io.opentelemetry</groupId>
-                    <artifactId>opentelemetry-exporter-common</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>io.opentelemetry</groupId>
-                    <artifactId>opentelemetry-semconv</artifactId>
+                    <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
