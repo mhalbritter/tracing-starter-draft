@@ -9,5 +9,16 @@
 
     <artifactId>starter-wavefront</artifactId>
 
-    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>starter.draft</groupId>
+            <artifactId>starter-otel</artifactId>
+            <version>1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-tracing-reporter-wavefront</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>

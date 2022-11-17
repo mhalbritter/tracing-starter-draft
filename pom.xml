@@ -12,5 +12,6 @@
         <module>starter-otel</module>
         <module>starter-wavefront</module>
         <module>starter-zipkin</module>
+        <module>demo</module>
     </modules>
 </project>
